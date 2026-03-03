@@ -62,11 +62,12 @@ const About = () => {
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt
             className="w-48 h-48 sm:w-64 sm:h-64 md:w-[25rem] md:h-[30rem] border-2 border-purple-100 rounded-lg"
-            tiltMaxAngleX={15}
+            tiltMaxAngleX={10}
             tiltMaxAngleY={10}
             perspective={1000}
             scale={1.05}
             transitionSpeed={1000}
+            // tiltEnable={true}
             gyroscope={true}
           >
             <img
