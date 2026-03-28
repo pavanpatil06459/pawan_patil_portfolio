@@ -36,9 +36,10 @@ import pratapcollagelogo from "./assets/education_logo/pratapcollage.jpg";
 import jayyogeshlogo from "./assets/education_logo/jayyogesh.png";
 
 // Project Section Logo's
-import foodplacelogo from "./assets/work_logo/foodplace.png";
-import techiecartlogo from "./assets/work_logo/techiecart.png";
-import techspacelogo from "./assets/work_logo/techspace.png";
+import techspacelogo from "./assets/workLogo/techSpacelogo.png"
+import foodielogo from "./assets/workLogo/foodielogo.png"
+import colorschemalogo from "./assets/workLogo/colorschemalogo.png"
+
 
 export const SkillsInfo = [
   {
@@ -109,39 +110,32 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "The Food Place Restaurant Landing Page",
+    title: "TechSpace — Tech E-Commerce Web App",
     description:
-      "A responsive restaurant website featuring a modern hero section, special menu filtering, and visually appealing food cards designed to enhance user experience.",
-    image: foodplacelogo,
-    tags: ["HTML", "CSS"],
-    github: "https://github.com/pavanpatil06459/Food-Place",
-    webapp: "https://pavanpatil06459.github.io/Food-Place/",
+      "A modern and fully responsive Tech E-Commerce Web Application built using React, Firebase, and Tailwind CSS. This project delivers a smooth shopping experience where users can explore products, manage their cart, and interact with a dynamic, real-time interface.",
+    image: techspacelogo,
+    tags: ["React (Vite)", "React Router", "Firebase Authentication & Firestore", "JavaScript (ES6+)", "HTML5", "CSS3"],
+    github: "https://github.com/pavanpatil06459/Tech-Ecommerce",
+    webapp: "https://tech-ecommerce-51939.web.app/",
   },
   {
     id: 1,
-    title: "TechieCart Modern E-Commerce Platform",
+    title: "Food Delivery Cart Web App",
     description:
-      "TechieCart is a responsive e-commerce website with a modern interface for browsing technology products. The project is currently under active development, focusing on improving functionality, responsiveness, and overall user experience.",
-    image: techiecartlogo,
-    tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/pavanpatil06459/ProjectDay-techEcommerce",
-    webapp: "https://pavanpatil06459.github.io/ProjectDay-techEcommerce/",
+      "A responsive food ordering web app built with HTML, CSS, and JavaScript. Users can browse items, manage cart, and see real-time price updates.",
+    image: foodielogo,
+    tags: ["HTML5", "CSS3", "JavaScript (ES6+)", "DOM Manipulation", "Event Handling", "Responsive Design"],
+    github: "https://github.com/pavanpatil06459/food-delivery-cart",
+    webapp: "https://food-cart-app-js.netlify.app/",
   },
   {
     id: 2,
-    title: "TechSpace E-Commerce Website for Tech Gadgets",
+    title: "Color Scheme Switcher",
     description:
-      "Users can securely register and log in, with password validation during signup. Visitors can browse products with images, descriptions, and prices, while only logged-in users can add items to their cart. Firebase ensures real-time updates for carts and user data. The site offers easy navigation with category filters and intuitive, user-friendly forms with validations and feedback.",
-    image: techspacelogo,
-    tags: [
-      "React JS",
-      "JavaScript",
-      "Tailwind CSS",
-      "HTML",
-      "Firebase (Authentication, Firestore, Realtime Database, Hosting",
-      "Github",
-    ],
-    github: "https://github.com/pavanpatil06459/Tech-Ecommerce",
-    webapp: "https://tech-ecommerce-51939.web.app/",
+      "A simple and interactive web app that lets users change the background color with a single click. Built using HTML, CSS, and JavaScript, it demonstrates DOM manipulation, event handling, and smooth UI transitions for a responsive user experience.",
+    image: colorschemalogo,
+    tags: ["HTML5", "CSS3", "JavaScript (ES6+)", "DOM Manipulation", "Event Handling", "Dynamic UI Updates", "Responsive Design"],
+    github: "https://github.com/pavanpatil06459/food-delivery-cart",
+    webapp: "https://pavanpatil06459.github.io/color-scheme-switcher/",
   },
 ];
