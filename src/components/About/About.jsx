@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactTypingEffect from 'react-typing-effect';
-import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profileImage.png'; 
+import React from "react";
+import ReactTypingEffect from "react-typing-effect";
+import Tilt from "react-parallax-tilt";
+import profileImage from "../../assets/profileImage.png";
 
 const About = () => {
   return (
@@ -24,12 +24,7 @@ const About = () => {
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
             <ReactTypingEffect
-              text={[
-                'Frontend Developer',
-                'Coder',
-                
-                
-              ]}
+              text={["Frontend Developer", "Coder"]}
               speed={100}
               eraseSpeed={50}
               typingDelay={500}
@@ -41,22 +36,30 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a passionate frontend web developer specializing in building modern, responsive, and visually engaging web applications. I enjoy crafting clean user interfaces that are both functional and delightful to use. I focus on writing maintainable, component-driven code, solving real-world UI challenges, and continuously sharpening my skills through hands-on projects and exploring the latest frontend technologies.
+            I am a passionate frontend web developer specializing in building
+            modern, responsive, and visually engaging web applications. I enjoy
+            crafting clean user interfaces that are both functional and
+            delightful to use. I focus on writing maintainable, component-driven
+            code, solving real-world UI challenges, and continuously sharpening
+            my skills through hands-on projects and exploring the latest
+            frontend technologies.
           </p>
           {/* Resume Button */}
           <a
             href="https://drive.google.com/file/d/1jPYCo4M8D4yn9Kl7H44OrqCQPgXGc7VG/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
+            className="relative inline-flex items-center justify-start px-8 py-3 overflow-hidden font-bold transition-all bg-white rounded hover:bg-white group mt-5"
             style={{
-              background: 'linear-gradient(90deg, #8245ec, #a855f7)',
-              boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+              background: "linear-gradient(90deg, #8245ec, #ff6a00)",
+              boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
             }}
           >
-            DOWNLOAD CV
+            <span className="w-48 h-48 rounded rotate-[-40deg] bg-purple-600 absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+            <span className="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-white">
+              DOWNLOAD CV
+            </span>
           </a>
-          
         </div>
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
