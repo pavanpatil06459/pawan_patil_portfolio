@@ -23,6 +23,7 @@ import gitLogo from "./assets/tech_logo/git.png";
 import githubLogo from "./assets/tech_logo/github.png";
 import vscodeLogo from "./assets/tech_logo/vscode.png";
 import postmanLogo from "./assets/tech_logo/postman.png";
+import Vitelogo from "./assets/tech_logo/Vitelogo.png";
 
 import figmaLogo from "./assets/tech_logo/figma.png";
 import netlifyLogo from "./assets/tech_logo/netlify.png";
@@ -39,6 +40,8 @@ import jayyogeshlogo from "./assets/education_logo/jayyogesh.png";
 import techspacelogo from "./assets/workLogo/techSpacelogo.png"
 import foodielogo from "./assets/workLogo/foodielogo.png"
 import colorschemalogo from "./assets/workLogo/colorschemalogo.png"
+import todologo from "./assets/workLogo/todologo.png"
+import responsivesitelogo from "./assets/workLogo/responsivesitelogo.png"
 
 
 export const SkillsInfo = [
@@ -55,21 +58,12 @@ export const SkillsInfo = [
       { name: "Bootstrap", logo: bootstrapLogo },
     ],
   },
-  {
-    title: "Backend",
-    skills: [
-      { name: "Node JS", logo: nodejsLogo },
-      { name: "Express JS", logo: expressjsLogo },
-      { name: "MongoDB", logo: mongodbLogo },
-      { name: "Firebase", logo: firebaseLogo },
-      { name: "Mongoose", logo: mongoose },
-    ],
-  },
+
   {
     title: "Languages",
     skills: [
       { name: "JavaScript", logo: javascriptLogo },
-      { name: "TypeScript", logo: typescriptLogo },
+     
     ],
   },
   {
@@ -82,6 +76,8 @@ export const SkillsInfo = [
       { name: "Vercel", logo: vercelLogo },
       { name: "Netlify", logo: netlifyLogo },
       { name: "Figma", logo: figmaLogo },
+      { name: "Vite", logo: Vitelogo },
+      { name: "Firebase", logo: firebaseLogo },
     ],
   },
 ];
@@ -138,4 +134,26 @@ export const projects = [
     github: "https://github.com/pavanpatil06459/food-delivery-cart",
     webapp: "https://pavanpatil06459.github.io/color-scheme-switcher/",
   },
+
+  {
+    id: 3,
+    title: "To-Do List Web App",
+    description:
+    "A distraction-free task manager built with vanilla JS — no frameworks, just clean logic and smooth UX.",
+    image: todologo,
+    tags: ["HTML5", "CSS3", "JavaScript (ES6+)", "DOM Manipulation", "Event Handling", "Local Storage", "Responsive Design"],
+    github: "https://github.com/pavanpatil06459/Todo-web-app",
+    webapp: "https://todo-web-app-two-pi.vercel.app/",
+  },
+
+  {
+    id: 4,
+    title: "Responsive Navbar", 
+    description:
+    "A responsive navigation bar built with HTML, CSS, and JavaScript. It adapts seamlessly to different screen sizes, providing an intuitive user experience across devices.",
+    image: responsivesitelogo,
+    tags: ["HTML5", "CSS3","Vanilla JavaScript (ES6+)", "Responsive Design", "Accessibility (ARIA)"],
+    github: "https://github.com/pavanpatil06459/Responsive-Nevigation-Bar",
+    webapp: "https://responsive-nevigation-bar.vercel.app/",
+  }
 ];
