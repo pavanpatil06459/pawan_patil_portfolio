@@ -12,13 +12,8 @@ import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
 import materialuiLogo from "./assets/tech_logo/materialui.png";
 import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
 
-import nodejsLogo from "./assets/tech_logo/nodejs.png";
-import expressjsLogo from "./assets/tech_logo/express.png";
-
-import mongodbLogo from "./assets/tech_logo/mongodb.png";
 import firebaseLogo from "./assets/tech_logo/firebase.png";
 
-import typescriptLogo from "./assets/tech_logo/typescript.png";
 import gitLogo from "./assets/tech_logo/git.png";
 import githubLogo from "./assets/tech_logo/github.png";
 import vscodeLogo from "./assets/tech_logo/vscode.png";
@@ -29,7 +24,7 @@ import figmaLogo from "./assets/tech_logo/figma.png";
 import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 
-import mongoose from "./assets/tech_logo/mongoose.png";
+
 
 // Education Section Logo's
 
@@ -37,12 +32,11 @@ import pratapcollagelogo from "./assets/education_logo/pratapcollage.jpg";
 import jayyogeshlogo from "./assets/education_logo/jayyogesh.png";
 
 // Project Section Logo's
-import techspacelogo from "./assets/workLogo/techSpacelogo.png"
-import foodielogo from "./assets/workLogo/foodielogo.png"
-import colorschemalogo from "./assets/workLogo/colorschemalogo.png"
-import todologo from "./assets/workLogo/todologo.png"
-import responsivesitelogo from "./assets/workLogo/responsivesitelogo.png"
-
+import techspacelogo from "./assets/workLogo/techSpacelogo.png";
+import foodielogo from "./assets/workLogo/foodielogo.png";
+import colorschemalogo from "./assets/workLogo/colorschemalogo.png";
+import todologo from "./assets/workLogo/todologo.png";
+import responsivesitelogo from "./assets/workLogo/responsivesitelogo.png";
 
 export const SkillsInfo = [
   {
@@ -61,10 +55,7 @@ export const SkillsInfo = [
 
   {
     title: "Languages",
-    skills: [
-      { name: "JavaScript", logo: javascriptLogo },
-     
-    ],
+    skills: [{ name: "JavaScript", logo: javascriptLogo }],
   },
   {
     title: "Tools",
@@ -110,7 +101,14 @@ export const projects = [
     description:
       "A modern and fully responsive Tech E-Commerce Web Application built using React, Firebase, and Tailwind CSS. This project delivers a smooth shopping experience where users can explore products, manage their cart, and interact with a dynamic, real-time interface.",
     image: techspacelogo,
-    tags: ["React (Vite)", "React Router", "Firebase Authentication & Firestore", "JavaScript (ES6+)", "HTML5", "CSS3"],
+    tags: [
+      "React (Vite)",
+      "React Router",
+      "Firebase Authentication & Firestore",
+      "JavaScript (ES6+)",
+      "HTML5",
+      "CSS3",
+    ],
     github: "https://github.com/pavanpatil06459/Tech-Ecommerce",
     webapp: "https://tech-ecommerce-51939.web.app/",
   },
@@ -120,7 +118,14 @@ export const projects = [
     description:
       "A responsive food ordering web app built with HTML, CSS, and JavaScript. Users can browse items, manage cart, and see real-time price updates.",
     image: foodielogo,
-    tags: ["HTML5", "CSS3", "JavaScript (ES6+)", "DOM Manipulation", "Event Handling", "Responsive Design"],
+    tags: [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "DOM Manipulation",
+      "Event Handling",
+      "Responsive Design",
+    ],
     github: "https://github.com/pavanpatil06459/food-delivery-cart",
     webapp: "https://food-cart-app-js.netlify.app/",
   },
@@ -130,7 +135,15 @@ export const projects = [
     description:
       "A simple and interactive web app that lets users change the background color with a single click. Built using HTML, CSS, and JavaScript, it demonstrates DOM manipulation, event handling, and smooth UI transitions for a responsive user experience.",
     image: colorschemalogo,
-    tags: ["HTML5", "CSS3", "JavaScript (ES6+)", "DOM Manipulation", "Event Handling", "Dynamic UI Updates", "Responsive Design"],
+    tags: [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "DOM Manipulation",
+      "Event Handling",
+      "Dynamic UI Updates",
+      "Responsive Design",
+    ],
     github: "https://github.com/pavanpatil06459/food-delivery-cart",
     webapp: "https://pavanpatil06459.github.io/color-scheme-switcher/",
   },
@@ -139,21 +152,35 @@ export const projects = [
     id: 3,
     title: "To-Do List Web App",
     description:
-    "A distraction-free task manager built with vanilla JS — no frameworks, just clean logic and smooth UX.",
+      "A distraction-free task manager built with vanilla JS — no frameworks, just clean logic and smooth UX.",
     image: todologo,
-    tags: ["HTML5", "CSS3", "JavaScript (ES6+)", "DOM Manipulation", "Event Handling", "Local Storage", "Responsive Design"],
+    tags: [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "DOM Manipulation",
+      "Event Handling",
+      "Local Storage",
+      "Responsive Design",
+    ],
     github: "https://github.com/pavanpatil06459/Todo-web-app",
     webapp: "https://todo-web-app-two-pi.vercel.app/",
   },
 
   {
     id: 4,
-    title: "Responsive Navbar", 
+    title: "Responsive Navbar",
     description:
-    "A responsive navigation bar built with HTML, CSS, and JavaScript. It adapts seamlessly to different screen sizes, providing an intuitive user experience across devices.",
+      "A responsive navigation bar built with HTML, CSS, and JavaScript. It adapts seamlessly to different screen sizes, providing an intuitive user experience across devices.",
     image: responsivesitelogo,
-    tags: ["HTML5", "CSS3","Vanilla JavaScript (ES6+)", "Responsive Design", "Accessibility (ARIA)"],
+    tags: [
+      "HTML5",
+      "CSS3",
+      "Vanilla JavaScript (ES6+)",
+      "Responsive Design",
+      "Accessibility (ARIA)",
+    ],
     github: "https://github.com/pavanpatil06459/Responsive-Nevigation-Bar",
     webapp: "https://responsive-nevigation-bar.vercel.app/",
-  }
+  },
 ];
