@@ -24,7 +24,7 @@ const About = () => {
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
             <ReactTypingEffect
-              text={["Frontend Developer", "Coder"]}
+              text={["FullStack Developer", "Coder"]}
               speed={100}
               eraseSpeed={50}
               typingDelay={500}
@@ -46,7 +46,7 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1gCepzAOm6gvKQB_l9j34FKTt18aPfen3/view?usp=sharing"
+            href="https://drive.google.com/file/d/1GvY65wAsPMlCg6PawdyJFEuegB9dWJqz/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="relative inline-flex items-center justify-start px-8 py-3 overflow-hidden font-bold transition-all bg-white rounded hover:bg-white group mt-5"
