@@ -36,13 +36,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a passionate frontend web developer specializing in building
-            modern, responsive, and visually engaging web applications. I enjoy
-            crafting clean user interfaces that are both functional and
-            delightful to use. I focus on writing maintainable, component-driven
-            code, solving real-world UI challenges, and continuously sharpening
-            my skills through hands-on projects and exploring the latest
-            frontend technologies.
+            Full-Stack Developer specializing in building scalable, responsive, and user-centric web applications. Skilled in React.js, JavaScript (ES6+), and Tailwind CSS on the frontend, and Node.js, Express.js, and MongoDB on the backend. Experienced in designing RESTful APIs, implementing secure JWT authentication, and integrating frontend and backend systems into seamless, high-performing products. I write clean, maintainable code, solve problems creatively, and keep learning to deliver solutions that create real business and user value.
           </p>
           {/* Resume Button */}
           <a
