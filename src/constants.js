@@ -23,6 +23,9 @@ import Vitelogo from "./assets/tech_logo/Vitelogo.png";
 import figmaLogo from "./assets/tech_logo/figma.png";
 import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
+import NPMlogo from "./assets/tech_logo/NPMlogo.png";
+import Render from "./assets/tech_logo/Render.png"
+
 
 
 
@@ -37,6 +40,7 @@ import foodielogo from "./assets/workLogo/foodielogo.png";
 import colorschemalogo from "./assets/workLogo/colorschemalogo.png";
 import todologo from "./assets/workLogo/todologo.png";
 import responsivesitelogo from "./assets/workLogo/responsivesitelogo.png";
+import TaskForgeFullStack from "./assets/workLogo/TaskForgeFullStack.png"
 
 export const SkillsInfo = [
   {
@@ -54,9 +58,17 @@ export const SkillsInfo = [
   },
 
   {
-    title: "Languages",
-    skills: [{ name: "JavaScript", logo: javascriptLogo }],
+    title: "Backend",
+    skills: [
+      { name: "Node.js", logo: htmlLogo },
+      { name: "Express.js", logo: cssLogo },
+      { name: "MongoDB", logo: javascriptLogo },
+      { name: "Mongoose", logo: reactjsLogo },
+      { name: "REST APIs", logo: reduxLogo },
+      { name: "JWT Auth", logo: tailwindcssLogo },
+    ],
   },
+
   {
     title: "Tools",
     skills: [
@@ -69,6 +81,8 @@ export const SkillsInfo = [
       { name: "Figma", logo: figmaLogo },
       { name: "Vite", logo: Vitelogo },
       { name: "Firebase", logo: firebaseLogo },
+      { name: "npm", logo: NPMlogo },
+      { name: "Render", logo: Render },
     ],
   },
 ];
@@ -95,6 +109,27 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 0,
+    title: "TaskForge – Full-Stack Todo Management Application",
+    description:
+      "A responsive full-stack Todo application with secure JWT authentication and protected routes. Built with React, Tailwind CSS, Node.js, Express.js, and MongoDB, featuring full CRUD task management, per-user light/dark theme persistence, and deployment on Render.",
+    image: TaskForgeFullStack,
+    tags: [
+      "React (Vite)",
+      "JavaScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "React Router",
+      "Render"
+    ],
+    github: "https://github.com/pavanpatil06459/TaskForge",
+    webapp: "https://taskforge-frontend-jyqq.onrender.com/",
+  },
   {
     id: 0,
     title: "TechSpace — Tech E-Commerce Web App",
